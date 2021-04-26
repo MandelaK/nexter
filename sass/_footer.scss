@@ -4,6 +4,10 @@
 
   padding: 8rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    padding: 6rem;
+  }
+
   .copyright {
     font-size: 1.4rem;
     color: $color-grey-light-2;
